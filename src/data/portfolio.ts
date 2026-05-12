@@ -1,0 +1,68 @@
+export const portfolio = {
+  name: "Yashveer Singh",
+  title: "Software Engineer / Frontend Engineer",
+  about: "2+ years specializing in web development infrastructure. Architect and implement performant solutions for exceptional digital experiences.",
+  skills: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "SASS",
+    "shadcn/ui",
+    "Framer Motion",
+    "TanStack Query",
+    "Redux",
+    "Vite",
+    "Node.js",
+    "Git",
+    "GitHub",
+    "Figma",
+    "Postman",
+  ],
+  work: [
+    {
+      company: "Rubrik",
+      title: "Software Engineer 2",
+      dates: "Nov 2025 – Present",
+      description: "Enterprise security & data protection, scalable frontend architecture",
+    },
+    {
+      company: "Reshield Technologies",
+      title: "Software Engineer",
+      dates: "Jan 2024 – Nov 2025",
+      description: "Sole frontend owner, architecture decisions, component library, TypeScript adoption",
+    },
+    {
+      company: "UIX Labs",
+      title: "SDE",
+      dates: "Jul 2023 – Jan 2024",
+      description: "15+ client projects, 40% perf improvement, cross-functional teams",
+    },
+  ],
+  projects: [
+    {
+      name: "rn-todo",
+      description: "React Native To-Do app with offline support (React Native, TypeScript, Expo, NativeWind)",
+      github: "singh-yashveer",
+    },
+    {
+      name: "side-bar",
+      description: "Customizable sidebar component for React (React, TypeScript, CSS-in-JS)",
+      github: "singh-yashveer",
+    },
+    {
+      name: "ts-select",
+      description: "Lightweight typed select component library (React, TypeScript)",
+      github: "singh-yashveer",
+    },
+  ],
+  socials: {
+    github: "singh-yashveer",
+    linkedin: "singh-yashveer",
+    twitter: "@Citron5007",
+    instagram: "@yashvxxr.singh",
+  },
+};

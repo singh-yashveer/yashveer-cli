@@ -1,0 +1,36 @@
+{
+  "name": "yashveer",
+  "version": "1.0.0",
+  "description": "Interactive CLI portfolio for Yashveer Singh - browse projects and experience in the terminal",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "yashveer": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "dev": "node --loader ts-node/esm src/index.tsx"
+  },
+  "keywords": [
+    "portfolio",
+    "cli",
+    "ink",
+    "react"
+  ],
+  "author": "Yashveer Singh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "figlet": "^1.7.0",
+    "ink": "^7.0.2",
+    "ink-select-input": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/node": "^25.7.0",
+    "@types/react": "^19.2.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
