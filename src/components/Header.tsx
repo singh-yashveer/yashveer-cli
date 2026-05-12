@@ -12,9 +12,11 @@ export const Header: React.FC<HeaderProps> = () => {
   });
 
   return (
-    <Box flexDirection="column">
+    <Box flexDirection="column" marginBottom={1}>
       <Text>{chalk.cyan(title)}</Text>
-      <Text>{chalk.yellow("Software Engineer | Frontend Specialist")}</Text>
+      <Text>{chalk.bold.hex("#FFD700")("Software Engineer / Frontend Engineer")}</Text>
+      <Text>{chalk.gray("Build fast, polished web experiences with modern frontend architecture")}</Text>
+      <Text>{chalk.gray("─".repeat(50))}</Text>
     </Box>
   );
 };

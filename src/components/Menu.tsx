@@ -18,17 +18,21 @@ export const Menu: React.FC<MenuProps> = ({ onSelect }) => {
   ];
 
   return (
-    <Box flexDirection="column" marginY={1}>
-      <Text>{chalk.bold.green("What would you like to explore?")}</Text>
-      <SelectInput
-        items={items}
-        onSelect={(item: { label: string; value: string }) => {
-          if (item.value === "quit") {
-            process.exit(0);
-          }
-          onSelect(item.value as "about" | "skills" | "work" | "projects" | "contact");
-        }}
-      />
+    <Box flexDirection="column" marginY={1} paddingLeft={1} paddingRight={1} paddingTop={1} paddingBottom={1} borderStyle="round" borderColor="green">
+      <Text>{chalk.bold.green("Welcome to my portfolio")}</Text>
+      <Text>{chalk.dim("Use the arrow keys and Enter to browse sections.")}</Text>
+      <Text>{chalk.gray("Explore About, Skills, Work, Projects, and Contact.")}</Text>
+      <Box marginTop={1}>
+        <SelectInput
+          items={items}
+          onSelect={(item: { label: string; value: string }) => {
+            if (item.value === "quit") {
+              process.exit(0);
+            }
+            onSelect(item.value as "about" | "skills" | "work" | "projects" | "contact");
+          }}
+        />
+      </Box>
     </Box>
   );
 };
