@@ -2,6 +2,10 @@
   "name": "yashveer",
   "version": "1.0.0",
   "description": "Interactive CLI portfolio for Yashveer Singh - browse projects and experience in the terminal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/singh-yashveer/yashveer-cli.git"
+  },
   "type": "module",
   "main": "dist/index.js",
   "bin": {

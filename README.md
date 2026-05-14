@@ -1,5 +1,8 @@
 # 🎨 Yashveer CLI Portfolio
 
+[![npm version](https://img.shields.io/npm/v/yashveer.svg)](https://www.npmjs.com/package/yashveer)
+[![npm downloads](https://img.shields.io/npm/dm/yashveer.svg)](https://www.npmjs.com/package/yashveer)
+
 An interactive terminal-based portfolio built with React and Ink. Browse experience, projects, and skills directly from your terminal.
 
 ```
